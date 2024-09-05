@@ -1,7 +1,7 @@
-// Define the module.exports object
+// config.js
+
 module.exports = {
   projectConfig: {
-    // ...
     database_extra: process.env.NODE_ENV !== "development" ?
       {
         ssl: {
@@ -10,7 +10,6 @@ module.exports = {
       } : {},
   },
   plugins: [
-   
     {
       resolve: "@medusajs/admin",
       /** @type {import('@medusajs/admin').PluginOptions} */
