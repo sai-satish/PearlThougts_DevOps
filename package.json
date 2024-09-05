@@ -1,0 +1,21 @@
+{
+  "name": "pearlthoughts",
+  "version": "1.0.0",
+  "description": "CD Pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"hello\"",
+    "start": "npm run build && medusa migrations run && medusa start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sai-satish/PearlThougts_DevOps.git"
+  },
+  "author": "satish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sai-satish/PearlThougts_DevOps/issues"
+  },
+  "homepage": "https://github.com/sai-satish/PearlThougts_DevOps#readme"
+  
+}
